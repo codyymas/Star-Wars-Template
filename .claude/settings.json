@@ -4,7 +4,24 @@
       "Bash(git -C \"/Users/codymasumiya/Desktop/grammys mothers day gift final/mothersday-website-for-grammy\" add index.html IMG_0804.mp4)",
       "Bash(git -C '/Users/codymasumiya/Desktop/grammys mothers day gift final/mothersday-website-for-grammy' commit -m ' *)",
       "Bash(git -C \"/Users/codymasumiya/Desktop/grammys mothers day gift final/mothersday-website-for-grammy\" add index.html)",
-      "Bash(git -C \"/Users/codymasumiya/Desktop/grammys mothers day gift final/mothersday-website-for-grammy\" push origin main)"
+      "Bash(git -C \"/Users/codymasumiya/Desktop/grammys mothers day gift final/mothersday-website-for-grammy\" push origin main)",
+      "Bash(cp \"/Users/codymasumiya/Downloads/Jedi.mp4\" \"/Users/codymasumiya/Desktop/Star Wars Birthday Template/birthday grammy animation/Jedi.mp4\" && ls -la \"/Users/codymasumiya/Desktop/Star Wars Birthday Template/birthday grammy animation/Jedi.mp4\")",
+      "Bash(ffprobe -v error -show_entries stream=codec_name,codec_type,width,height -show_entries format=format_name,duration -of default=noprint_wrappers=0 \"/Users/codymasumiya/Desktop/Star Wars Birthday Template/birthday grammy animation/Jedi.mp4\")",
+      "Bash(mdls -name kMDItemCodecs -name kMDItemDurationSeconds -name kMDItemAudioBitRate -name kMDItemPixelWidth -name kMDItemPixelHeight \"/Users/codymasumiya/Desktop/Star Wars Birthday Template/birthday grammy animation/Jedi.mp4\")",
+      "Bash(node -e \"console.log\\(require\\('playwright'\\)\\)\")",
+      "Bash(node check_video.js)",
+      "Bash(brctl status *)",
+      "Bash(xattr -l \"/Users/codymasumiya/Desktop/Star Wars Birthday Template/birthday grammy animation/Jedi.mp4\")",
+      "Bash(xattr -d com.apple.quarantine \"/Users/codymasumiya/Desktop/Star Wars Birthday Template/birthday grammy animation/Jedi.mp4\")",
+      "Bash(afinfo \"/Users/codymasumiya/Desktop/Star Wars Birthday Template/birthday grammy animation/Jedi.mp4\")",
+      "Bash(rm -f /private/tmp/claude-501/-Users-codymasumiya-Desktop-Star-Wars-Birthday-Template/68988e14-c4c4-4609-8fbf-c51b4839f756/scratchpad/*.png /private/tmp/claude-501/-Users-codymasumiya-Desktop-Star-Wars-Birthday-Template/68988e14-c4c4-4609-8fbf-c51b4839f756/scratchpad/*.js)",
+      "Bash(node check_lower.js)",
+      "Bash(node check_blue.js)",
+      "Bash(node check_current.js)"
+    ],
+    "additionalDirectories": [
+      "/Users/codymasumiya/Downloads",
+      "/private/tmp/claude-501/-Users-codymasumiya-Desktop-Star-Wars-Birthday-Template/68988e14-c4c4-4609-8fbf-c51b4839f756/scratchpad"
     ]
   }
 }
